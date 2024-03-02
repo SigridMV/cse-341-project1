@@ -1,0 +1,18 @@
+GET https://project1-d6mr.onrender.com
+
+
+###
+
+GET https://project1-d6mr.onrender.com/users
+
+###
+
+GET https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea392
+
+###
+
+GET https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea393
+
+###
+
+GET https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea394
