@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "65e29fee4a1c05f38d8ea392",
+    "firstName": "Pablo",
+    "lastName": "Machel",
+    "email": "pablo@mail.com",
+    "favoriteColor": "Blue",
+    "birthday": "1990-10-10"
+  },
+  {
+    "_id": "65e29fee4a1c05f38d8ea393",
+    "firstName": "David",
+    "lastName": "Smith",
+    "email": "david.smith@mail.com",
+    "favoriteColor": "Green",
+    "birthday": "1985-01-30"
+  },
+  {
+    "_id": "65e29fee4a1c05f38d8ea394",
+    "firstName": "Carla",
+    "lastName": "Johnson",
+    "email": "carla.johnson@mail.com",
+    "favoriteColor": "Red",
+    "birthday": "1981-06-18"
+  }
+]
