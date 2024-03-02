@@ -1,3 +1,4 @@
+//Routes Setup
 const router = require('express').Router();
 
 router.get('/', (req, res) => { 
