@@ -19,11 +19,11 @@ POST https://project1-d6mr.onrender.com/users/ HTTP/1.1
 Content-Type: application/json
 
 {
-    "firstName": "Ashley",
-    "lastName": "Weaver",
-    "email": "aweaver@mail.com",
-    "favoriteColor": "Brown",
-    "birthday": "06/09/2000"
+    "firstName": "Genesis",
+    "lastName": "Fernandez",
+    "email": "ffernandez@mail.com",
+    "favoriteColor": "white",
+    "birthday": "21/09/1988"
 }
 
 ### PUT contact
@@ -31,11 +31,11 @@ PUT https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea394 HTTP/1.1
 Content-Type: application/json
 
 {
-    "firstName": "Sarah",
-    "lastName": "Birch",
-    "email": "aweaver@mail.com",
-    "favoriteColor": "Brown",
-    "birthday": "06/09/2000"
+    "firstName": "Camila",
+    "lastName": "Moreno",
+    "email": "cmoreno@mail.com",
+    "favoriteColor": "black",
+    "birthday": "06/02/1979"
 }
 
 ### Delete user
