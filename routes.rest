@@ -2,7 +2,6 @@
 
 GET https://project1-d6mr.onrender.com
 
-
 ### Get all contacts
 GET https://project1-d6mr.onrender.com/users
 
@@ -29,7 +28,7 @@ Content-Type: application/json
 
 ### PUT contact
 PUT https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea394 HTTP/1.1
-content-type: application/json
+Content-Type: application/json
 
 {
     "firstName": "Sarah",

@@ -37,10 +37,10 @@ const createUser = async (req, res) => {
   };
   const response = await mongodb
     .getDatabase()
-    .db()
+    .db("project1")
     .collection("users")
     .insertOne(user);
-  if (response.insertedCount > 0) {
+  if (response.acknowledge) {
     res.status(204).send();
   } else {
     res
@@ -60,7 +60,7 @@ const updateUser = async (req, res) => {
   };
   const response = await mongodb
     .getDatabase()
-    .db()
+    .db("project1")
     .collection("users")
     .replaceOne({ _id: userId }, user);
   if (response.modifiedCount > 0) {
@@ -76,7 +76,7 @@ const deleteUser = async (req, res) => {
   const userId = new ObjectId(req.params.id);
   const response = await mongodb
     .getDatabase()
-    .db()
+    .db("project1")
     .collection("users")
     .deleteOne({ _id: userId });
   if (response.deletedCount > 0) {
