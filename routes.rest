@@ -3,18 +3,42 @@
 GET https://project1-d6mr.onrender.com
 
 
-###
-
+### Get all contacts
 GET https://project1-d6mr.onrender.com/users
 
-###
-
+### Get contact by id , 1
 GET https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea392
 
-###
-
+### Get contact by id,  2
 GET https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea393
 
-###
-
+### Get contact by id , 3
 GET https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea394
+
+### Create contact
+POST https://project1-d6mr.onrender.com/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "65e29fee4a1c05f38d8ea395",
+    "firstName": "Ashley",
+    "lastName": "Weaver",
+    "email": "aweaver@mail.com",
+    "favoriteColor": "Brown",
+    "birthday": "06/09/2000"
+}
+
+### PUT contact
+PUT https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea394 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Sarah",
+    "lastName": "Birch",
+    "email": "aweaver@mail.com",
+    "favoriteColor": "Brown",
+    "birthday": "06/09/2000"
+}
+
+### Delete user
+DELETE https://project1-d6mr.onrender.com/users/65e29fee4a1c05f38d8ea394 HTTP/1.1
