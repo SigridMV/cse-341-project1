@@ -28,7 +28,6 @@ const getSingle = async (req, res) => {
 };
 
 const createUser = async (req, res) => {
-  const userId = new ObjectId(req.params.id);
   const user = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -41,7 +40,7 @@ const createUser = async (req, res) => {
     .db()
     .collection("users")
     .insertOne(user);
-  if (response.modifiedCount > 0) {
+  if (response.insertedCount > 0) {
     res.status(204).send();
   } else {
     res
