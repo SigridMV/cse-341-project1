@@ -5,7 +5,7 @@
     "description": "Users API",
     "version": "1.0.0"
   },
-  "host": "https://project1-d6mr.onrender.com",
+  "host": "project1-d6mr.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
